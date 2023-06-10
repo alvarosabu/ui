@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { computed, watchEffect } from 'vue'
+import { computed } from 'vue'
 import AsIcon from '../as-icon/AsIcon.vue'
 import { btnSize, btnVariant } from '.'
 
-export type ButtonProps = {
+export interface ButtonProps {
   label?: string
   icon?: string
   iconRight?: string
@@ -16,6 +16,7 @@ export type ButtonProps = {
   flat?: boolean
   transparent?: boolean
 }
+
 const {
   disabled = false,
   outline = false,

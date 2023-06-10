@@ -28,7 +28,11 @@ export const ASUnoConfig = defineConfig({
   theme: ASTheme,
   shortcuts: ASShortcuts,
   rules: ASRules,
-  safelist: [...btnSafelist, ...iconSafelist, ...imgAspectRatiosSafelist /* ...iconSafelist, ...imgAspectRatiosSafelist */],
+  safelist: [
+    ...btnSafelist, 
+    ...iconSafelist, 
+    ...imgAspectRatiosSafelist,
+  ],
   presets: [
     presetUno(),
     presetAttributify(),
