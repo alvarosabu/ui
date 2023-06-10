@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { computed, ref, StyleValue, useAttrs } from 'vue'
-/* import { useLogger } from '@alvarosabu/use'
- */
+import type { StyleValue } from 'vue'
+import { computed, ref, useAttrs } from 'vue'
 import { imgFitModes, imgCaptionType, imgAspectRatios } from './const'
 
-export type ImgProps = {
+export interface ImgProps {
   aspectRatio?: string
   objectFit?: string
   caption?: string
@@ -84,9 +83,9 @@ function onError(event: Event) {
   const errorMessage = `Image source ${src} not found`
 
   emit('error', errorMessage)
-/*   error(errorMessage) */
 }
 </script>
+
 <template>
   <figure :class="figureClasses">
     <img
@@ -96,14 +95,17 @@ function onError(event: Event) {
       :style="imgStyles"
       @load="onLoad"
       @error="onError"
-    />
+    >
     <!-- TODO: Implement when loaders -->
     <!--  <as-particle-loader
       size="4rem"
       class="absolute text-gray-400 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
       v-if="loading"
     /> -->
-    <figcaption v-if="caption || $slots.default" :class="captionClasses">
+    <figcaption
+      v-if="caption || $slots.default"
+      :class="captionClasses"
+    >
       <slot>{{ caption }} </slot>
     </figcaption>
   </figure>
