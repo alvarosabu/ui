@@ -1,3 +1,4 @@
+export * from './as-badge'
 export * from './as-button'
 export * from './as-icon'
 export * from './as-img'
