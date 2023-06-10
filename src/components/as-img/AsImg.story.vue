@@ -25,16 +25,41 @@ const state = reactive({
 
 <template>
   <Story title="AsImg">
-    <Variant title="playground"  auto-props-disabled>
+    <Variant
+      title="playground"
+      auto-props-disabled
+    >
       <AsImg v-bind="state" />
 
       <template #controls>
-        <HstText v-model="state.src" title="Url" />
-        <HstSelect v-model="state.aspectRatio" title="Aspect ratio" :options="imgAspectRatios" />
-        <HstText v-model="state.caption" title="Caption" />
-        <HstSelect v-model="state.captionType" title="Caption Type" :options="imgCaptionTypeList" />
-        <HstSelect v-model="state.objectFit" title="Object fit" :options="imgFitModesList" />
-        <HstSelect v-model="state.loading" title="Loading Mode" :options="imgLoadingModeList" />
+        <HstText
+          v-model="state.src"
+          title="Url"
+        />
+        <HstSelect
+          v-model="state.aspectRatio"
+          title="Aspect ratio"
+          :options="imgAspectRatios"
+        />
+        <HstText
+          v-model="state.caption"
+          title="Caption"
+        />
+        <HstSelect
+          v-model="state.captionType"
+          title="Caption Type"
+          :options="imgCaptionTypeList"
+        />
+        <HstSelect
+          v-model="state.objectFit"
+          title="Object fit"
+          :options="imgFitModesList"
+        />
+        <HstSelect
+          v-model="state.loading"
+          title="Loading Mode"
+          :options="imgLoadingModeList"
+        />
       </template>
     </Variant>
   </Story>
