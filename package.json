@@ -12,6 +12,7 @@
       "import": "./dist/as-ui.js",
       "types": "./dist/as-ui.d.ts"
     },
+    "./styles": "./dist/style.css",
     "./*": "./*"
   },
   "main": "./dist/as-ui.js",
@@ -35,6 +36,7 @@
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.tsx .",
     "test": "vitest",
+    "release": "release-it",
     "test:ui": "vitest --ui",
     "story:dev": "histoire dev",
     "story:build": "histoire build",
@@ -51,6 +53,7 @@
     "@iconify-json/octicon": "^1.1.41",
     "@iconify-json/teenyicons": "^1.1.5",
     "@iconify/json": "^2.2.76",
+    "@release-it/conventional-changelog": "^5.1.1",
     "@unocss/preset-web-fonts": "^0.53.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vitest/ui": "^0.32.0",
@@ -58,6 +61,7 @@
     "histoire": "^0.16.1",
     "kolorist": "^1.8.0",
     "pathe": "^1.1.1",
+    "release-it": "^15.11.0",
     "typescript": "^5.0.4",
     "unocss": "^0.53.1",
     "vite": "^4.3.9",
