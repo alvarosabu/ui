@@ -37,6 +37,7 @@
     "lint": "eslint --ext .ts,.tsx .",
     "test": "vitest",
     "release": "release-it",
+    "release:alpha": "release-it --preRelease=alpha",
     "test:ui": "vitest --ui",
     "story:dev": "histoire dev",
     "story:build": "histoire build",
