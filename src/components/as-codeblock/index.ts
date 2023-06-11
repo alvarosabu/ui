@@ -1,1 +1,5 @@
-export * from './AsCodeblock.vue'
+import AsCodeBlock from './AsCodeBlock.vue'
+
+export * from './AsCodeBlock.vue'
+
+export { AsCodeBlock }
