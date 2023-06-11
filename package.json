@@ -4,23 +4,30 @@
   "description": "UI Library for my personal projects",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
   "type": "module",
+  "packageManager": "pnpm@8.3.1",
+  "license": "MIT",
+  "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./dist/as-ui.mjs"
-    }
+      "import": "./dist/as-ui.js",
+      "types": "./dist/as-ui.d.ts"
+    },
+    "./*": "./*"
   },
-  "main": "./dist/as-ui.mjs",
+  "main": "./dist/as-ui.js",
+  "module": "./dist/as-ui.js",
   "types": "./dist/as-ui.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "files": [
-    "dist"
+    "dist",
+    "*.d.ts"
   ],
   "keywords": [
-    "utils",
-    "javascript",
-    "typescript"
+    "ui",
+    "vue",
+    "composable"
   ],
   "scripts": {
     "dev": "vite",
