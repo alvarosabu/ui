@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.2](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.1...3.0.0-alpha.2) (2023-06-11)
+
+
+### Bug Fixes
+
+* add kbd to component exports ([8494030](https://github.com/alvarosabu/ui/commit/849403053c05f7a05a9c8e82009d7542c3bb4230))
+
 ## [3.0.0-alpha.1](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.0...3.0.0-alpha.1) (2023-06-11)
 
 
