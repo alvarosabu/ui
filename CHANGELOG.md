@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.1](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.0...3.0.0-alpha.1) (2023-06-11)
+
+
+### Bug Fixes
+
+* export components with correct naming ([3e26934](https://github.com/alvarosabu/ui/commit/3e26934a5b34a8305ab2bf544fa360ab8b278ad3))
+
 ## 3.0.0-alpha.0 (2023-06-11)
 
 
