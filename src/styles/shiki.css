@@ -28,3 +28,7 @@ pre[class*='language-typescript']::before {
 :not(pre) > code:before {
   margin-right: -0.08em;
 }
+
+span[style*="color: var(--shiki-token-keyword)"], span[style*="color: var(--shiki-token-function)"] {
+  font-style: italic;
+}

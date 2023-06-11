@@ -7,6 +7,9 @@ dependencies:
   sass:
     specifier: ^1.63.3
     version: 1.63.3
+  shikey:
+    specifier: ^0.0.2
+    version: 0.0.2
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -3740,6 +3743,11 @@ packages:
   /shell-quote@1.8.1:
     resolution: {integrity: sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==}
     dev: true
+
+  /shikey@0.0.2:
+    resolution: {integrity: sha512-JIb5j6IP6bgyqGZdl7ydL2y8z4P4eOXJV36GvM9AL+jOc89ua+lcTwH6XIZBdN9X7ofWK0aGWEs+yt/pn4Z2nw==}
+    requiresBuild: true
+    dev: false
 
   /shiki-es@0.2.0:
     resolution: {integrity: sha512-RbRMD+IuJJseSZljDdne9ThrUYrwBwJR04FvN4VXpfsU3MNID5VJGHLAD5je/HGThCyEKNgH+nEkSFEWKD7C3Q==}

@@ -5,3 +5,18 @@
     url(../assets/fonts/Gilroy-ExtraBold.otf) format('opentype'),
     url(../assets/fonts/Gilroy-ExtraBold.woff) format('woff');
 }
+
+@font-face {
+  font-family: 'Fira Code iScript';
+  font-weight: 400;
+  src: local('Fira Code iScript'),
+    url(../assets/fonts/FiraCodeiScript-Regular.otf) format('ttf'),
+}
+
+@font-face {
+  font-family: 'Fira Code iScript';
+  font-weight: 400;
+  font-style: italic;
+  src: local('Fira Code iScript'),
+    url(../assets/fonts/FiraCodeiScript-Italic.otf) format('ttf'),
+}

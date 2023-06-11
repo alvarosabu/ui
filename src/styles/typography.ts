@@ -10,11 +10,11 @@ export const ASTypographyOptions: TypographyOptions = {
     h2: headlineStyles,
     h3: headlineStyles,
     p: {
-      'font-family': 'Nunito',
+      'font-family': 'Inter',
       'font-size': '1.125rem',
     },
     code: {
-      'font-family': 'Fira Code',
+      'font-family': 'Fira Code iScript',
       'font-size': '0.875rem',
       color: `${ASTheme?.colors?.primary[500]} !important`,
     },
