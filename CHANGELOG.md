@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.3](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.2...3.0.0-alpha.3) (2023-06-11)
+
+
+### Features
+
+* export unocss config ([9104f5e](https://github.com/alvarosabu/ui/commit/9104f5e3c754369cc58c6dfc7fe7960042249186))
+
 ## [3.0.0-alpha.2](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.1...3.0.0-alpha.2) (2023-06-11)
 
 
