@@ -1,6 +1,6 @@
 {
   "name": "@alvarosabu/ui",
-  "version": "2.20.0",
+  "version": "3.0.0-alpha.0",
   "description": "UI Library for my personal projects",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
   "type": "module",
