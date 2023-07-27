@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.8](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.7...3.0.0-alpha.8) (2023-07-27)
+
+
+### Bug Fixes
+
+* typo on style export ([1602a8a](https://github.com/alvarosabu/ui/commit/1602a8a336af9182894ec5c4c43255d72681350f))
+
 ## [3.0.0-alpha.7](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.6...3.0.0-alpha.7) (2023-07-27)
 
 
