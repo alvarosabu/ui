@@ -3,11 +3,8 @@ import vue from '@vitejs/plugin-vue'
 import Unocss from 'unocss/vite'
 import SvgLoader from 'vite-svg-loader'
 import dts from 'vite-plugin-dts'
-import banner from 'vite-plugin-banner'
 
 import { bold, bgLightGreen } from 'kolorist'
-
-import { resolve } from 'pathe'
 
 import pkg from './package.json'
 
