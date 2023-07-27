@@ -4,4 +4,3 @@ export * from './AsModal.vue'
 
 export { AsModal }
 
-

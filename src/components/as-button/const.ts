@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import type { DynamicShortcut } from 'unocss'
 
 export type ButtonType = 'button' | 'submit' | 'reset'
@@ -28,12 +27,29 @@ export const btnShortcuts: DynamicShortcut[] = [
   [
     /^btn-(?!.*(outline|flat|transparent|block|sm|md|lg|default))(.*)/,
     ([, , c]) =>
-      `important-bg-${c}-400 text-white border-transparent hover:shadow-${c} hover:shadow-button focus:outline-none focus:ring-2 focus:ring-opacity-75 focus:ring-${c}-400`,
+      `important-bg-${c}-400
+      text-white
+      border-transparent
+      hover:shadow-${c}
+      hover:shadow-button
+      focus:outline-none
+      focus:ring-2
+      focus:ring-opacity-75
+      focus:ring-${c}-400`,
   ],
   [
     /^btn-outline-(.*)$/,
     ([, c]) =>
-      `bg-transparent border-${c}-400 text-${c}-400 hover:text-${c}-500 hover:shadow-${c} hover:shadow-button focus:outline-none focus:ring-2 focus:ring-opacity-75 focus:ring-${c}-400`,
+      `bg-transparent 
+      border-${c}-400 
+      text-${c}-400 
+      hover:text-${c}-500 
+      hover:shadow-${c} 
+      hover:shadow-button 
+      focus:outline-none 
+      focus:ring-2 
+      focus:ring-opacity-75 
+      focus:ring-${c}-400`,
   ],
   [/^btn-flat-(.*)$/, ([, c]) => `bg-gray-50 border-transparent text-${c}-400 hover:text-${c}-600`],
   [

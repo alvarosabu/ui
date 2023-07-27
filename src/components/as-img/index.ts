@@ -5,4 +5,3 @@ export * from './const'
 
 export { AsImg }
 
-
