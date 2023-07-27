@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.6](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.5...3.0.0-alpha.6) (2023-07-27)
+
+
+### Bug Fixes
+
+* removed enum use on withDefaults ([6d7abcb](https://github.com/alvarosabu/ui/commit/6d7abcb5af358959eb748570a49d77026834c56b))
+
 ## [3.0.0-alpha.5](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.4...3.0.0-alpha.5) (2023-07-27)
 
 
