@@ -15,6 +15,7 @@
   "exports": {
     ".": {
       "types": "./dist/as-ui.d.ts",
+      "require": "./dist/dist/as-ui.umd.cjs",
       "import": "./dist/as-ui.js"
     },
     "./styles": "./dist/style.css",
