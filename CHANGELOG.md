@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.13](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.12...3.0.0-alpha.13) (2023-07-27)
+
+
+### Features
+
+* change back to nunito font and export shiki variables ([5c91960](https://github.com/alvarosabu/ui/commit/5c91960f3d1221eaf7425ded9b97449d2aecc59e))
+
 ## [3.0.0-alpha.12](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.11...3.0.0-alpha.12) (2023-07-27)
 
 
