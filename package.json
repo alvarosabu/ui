@@ -21,7 +21,7 @@
     "./styles": "./dist/style.css",
     "./*": "./*"
   },
-  "main": "./dist/as-ui.js",
+  "main": "./dist/as-ui.umd.cjs",
   "module": "./dist/as-ui.js",
   "types": "./dist/as-ui.d.ts",
   "publishConfig": {
