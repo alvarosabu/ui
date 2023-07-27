@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.5](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.4...3.0.0-alpha.5) (2023-07-27)
+
+
+### Features
+
+* improved unocss config exports ([94f8870](https://github.com/alvarosabu/ui/commit/94f88707d1d79d2d05249ce1218dc1368b2a2cb6))
+
 ## [3.0.0-alpha.4](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.3...3.0.0-alpha.4) (2023-07-27)
 
 
