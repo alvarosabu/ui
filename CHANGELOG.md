@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.11](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.10...3.0.0-alpha.11) (2023-07-27)
+
+
+### Bug Fixes
+
+* change main export to umd for slidev ([de6a088](https://github.com/alvarosabu/ui/commit/de6a0880b8d4d0897d525ffe43a420bbea0ee948))
+
 ## [3.0.0-alpha.10](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.9...3.0.0-alpha.10) (2023-07-27)
 
 
