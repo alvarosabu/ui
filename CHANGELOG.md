@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.9](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.8...3.0.0-alpha.9) (2023-07-27)
+
+
+### Features
+
+* add umd cjs bundle export ([6507b0a](https://github.com/alvarosabu/ui/commit/6507b0ae627c0e0832e4e9fda714f6ae409f5c78))
+
 ## [3.0.0-alpha.8](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.7...3.0.0-alpha.8) (2023-07-27)
 
 
