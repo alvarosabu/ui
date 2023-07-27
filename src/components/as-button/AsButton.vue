@@ -1,7 +1,18 @@
 <script setup lang="ts">
 import { computed, toRefs } from 'vue'
 import AsIcon from '../as-icon/AsIcon.vue'
-import { btnSize, btnVariant } from '.'
+import { btnSize } from './const'
+
+const props = withDefaults(defineProps<ButtonProps>(), {
+  disabled: false,
+  outline: false,
+  link: false,
+  flat: false,
+  target: '_blank',
+  variant: 'primary',
+  size: 'default',
+  transparent: false,
+})
 
 export interface ButtonProps {
   label?: string
@@ -16,17 +27,6 @@ export interface ButtonProps {
   flat?: boolean
   transparent?: boolean
 }
-
-const props = withDefaults(defineProps<ButtonProps>(), {
-  disabled: false,
-  outline: false,
-  link: false,
-  flat: false,
-  target: '_blank',
-  variant: btnVariant.PRIMARY,
-  size: btnSize.DEFAULT,
-  transparent: false,
-})
 
 const { label, icon, iconRight, disabled, outline, link, target, variant, size, flat, transparent } = toRefs(props)
 
@@ -51,7 +51,7 @@ const btnClasses = computed(() => {
     }
   }
 
-  if (size) {
+  if (size.value) {
     classes.push({
       'py-2 px-4': size.value === btnSize.DEFAULT,
       'w-full py-2 px-5': size.value === btnSize.BLOCK,
