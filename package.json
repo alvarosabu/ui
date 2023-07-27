@@ -17,7 +17,7 @@
       "types": "./dist/as-ui.d.ts",
       "import": "./dist/as-ui.js"
     },
-    "./styles": "./dist/styles.css",
+    "./styles": "./dist/style.css",
     "./*": "./*"
   },
   "main": "./dist/as-ui.js",
