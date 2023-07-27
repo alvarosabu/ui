@@ -1,15 +1,18 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, toRefs } from 'vue'
 import { graphicType, graphicTypeMap } from './const'
 
 export interface GraphicProps {
   type?: string
 }
 
-const { 
-  type = graphicType.DOTS,
-} = defineProps<GraphicProps>()
-const graphic = computed(() => graphicTypeMap[type])
+const props = withDefaults(defineProps<GraphicProps>(), {
+  type: graphicType.DOTS,
+})
+
+const { type } = toRefs(props)
+
+const graphic = computed(() => graphicTypeMap[type.value])
 </script>
 
 <template>

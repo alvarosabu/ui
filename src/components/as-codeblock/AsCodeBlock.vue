@@ -15,7 +15,6 @@ const props = defineProps({
 
 const showCopyButton = ref(false)
 
-
 const copySuccesfully = ref(false)
 
 const formattedLanguage = computed(() => {

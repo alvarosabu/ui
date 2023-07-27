@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { StyleValue } from 'vue'
-import { computed, ref, useAttrs } from 'vue'
+import { computed, ref, toRefs, useAttrs } from 'vue'
 import { imgFitModes, imgCaptionType, imgAspectRatios } from './const'
 
 export interface ImgProps {
@@ -10,12 +10,13 @@ export interface ImgProps {
   captionMode?: string
   captionType?: string
 }
-const {
-  aspectRatio = imgAspectRatios[0],
-  objectFit = imgFitModes.CONTAIN,
-  caption,
-  captionType = imgCaptionType.OUTSIDE,
-} = defineProps<ImgProps>()
+const props = withDefaults(defineProps<ImgProps>(), {
+  aspectRatio: imgAspectRatios[0],
+  objectFit: imgFitModes.CONTAIN,
+  captionType: imgCaptionType.OUTSIDE,
+})
+
+const { aspectRatio, objectFit, caption, captionType } = toRefs(props)
 
 // eslint-disable-next-line
 const emit = defineEmits<{
@@ -36,7 +37,7 @@ const loading = ref(true)
 const imgStyles = computed(
   () =>
     ({
-      objectFit,
+      objectFit: objectFit.value,
     } as StyleValue),
 )
 
@@ -51,11 +52,11 @@ const figureClasses = ref([
   'overflow-hidden',
   'rounded',
   'm-0',
-  aspectRatio ? `aspect-${aspectRatio}` : null,
+  aspectRatio ? `aspect-${aspectRatio.value}` : null,
 ])
 
 const captionClasses = computed(() => {
-  switch (captionType) {
+  switch (captionType.value) {
     case imgCaptionType.OUTSIDE:
       return ['text-sm', 'py-4']
     case imgCaptionType.BOTTOM:
