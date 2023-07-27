@@ -1,5 +1,20 @@
 
 
+## [3.0.0-alpha.4](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.3...3.0.0-alpha.4) (2023-07-27)
+
+
+### Features
+
+* revert button to withDefaults ([e1c6f54](https://github.com/alvarosabu/ui/commit/e1c6f54633250e46922e744a63a6aa80863c1d66))
+* revert kbd to withDefaults ([11cccdc](https://github.com/alvarosabu/ui/commit/11cccdc48b55e575a462d3cbf89e3179a8f69101))
+* revert text image to withDefaults props ([6ff272f](https://github.com/alvarosabu/ui/commit/6ff272f8c04f3c18cd58c68f6c2a669091467047))
+* revert to withDefaults ([1736201](https://github.com/alvarosabu/ui/commit/17362017f552483956596478c5b5ebdf79844f76))
+
+
+### Bug Fixes
+
+* lint issues ([de58292](https://github.com/alvarosabu/ui/commit/de58292d4d0e9a7c287518d021736b5007c98be0))
+
 ## [3.0.0-alpha.3](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.2...3.0.0-alpha.3) (2023-06-11)
 
 
