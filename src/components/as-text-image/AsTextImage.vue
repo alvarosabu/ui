@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, toRefs } from 'vue'
 import AsImg from '../as-img/AsImg.vue'
 import AsGraphic from '../as-graphic/AsGraphic.vue'
 import { textImgDirection } from './const'
@@ -12,12 +12,13 @@ export interface TextImageProps {
   }
   direction?: string
 }
-const {
-  media,
-  direction = textImgDirection.ROW,
-} = defineProps<TextImageProps>()
+const props = withDefaults(defineProps<TextImageProps>(), { 
+  direction: textImgDirection.ROW 
+})
 
-const isReverse = computed(() => direction === textImgDirection.REVERSE)
+const { media, direction } = toRefs(props)
+
+const isReverse = computed(() => direction.value === textImgDirection.REVERSE)
 </script>
 
 <template>
