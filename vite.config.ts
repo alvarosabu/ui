@@ -14,9 +14,6 @@ console.log(`${bold(bgLightGreen(' AS - UI 🎨 '))} v${pkg.version}`)
 export default defineConfig({
   plugins: [
     vue({
-      script: {
-        propsDestructure: true,
-      },
     }),
     dts({
       insertTypesEntry: true,

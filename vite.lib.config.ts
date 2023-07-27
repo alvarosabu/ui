@@ -16,11 +16,7 @@ console.log(`${bold(bgLightGreen(' AS - UI 🎨 '))} v${pkg.version}`)
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue({
-      script: {
-        propsDestructure: true,
-      },
-    }),
+    vue(),
     dts({
       insertTypesEntry: true,
     }),

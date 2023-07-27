@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, toRefs } from 'vue'
 import AsIcon from '../as-icon/AsIcon.vue'
 import { btnSize, btnVariant } from '.'
 
@@ -17,46 +17,47 @@ export interface ButtonProps {
   transparent?: boolean
 }
 
-const {
-  disabled = false,
-  outline = false,
-  link = false,
-  flat = false,
-  target = '_blank',
-  label,
-  variant = btnVariant.PRIMARY,
-  size = btnSize.DEFAULT,
-  transparent = false,
-} = defineProps<ButtonProps>()
+const props = withDefaults(defineProps<ButtonProps>(), {
+  disabled: false,
+  outline: false,
+  link: false,
+  flat: false,
+  target: '_blank',
+  variant: btnVariant.PRIMARY,
+  size: btnSize.DEFAULT,
+  transparent: false,
+})
 
-const hasLabel = computed(() => !!label)
+const { label, icon, iconRight, disabled, outline, link, target, variant, size, flat, transparent } = toRefs(props)
+
+const hasLabel = computed(() => !!label?.value)
 
 // Classes
 const btnClasses = computed(() => {
   const classes: (string | { [key: string]: boolean })[] = ['as-btn']
 
-  if (variant) {
-    if (flat) {
-      classes.push(`btn-flat-${variant.toLowerCase()}`)
+  if (variant.value) {
+    if (flat.value) {
+      classes.push(`btn-flat-${variant.value.toLowerCase()}`)
     }
-    else if (outline) {
-      classes.push(`btn-outline-${variant.toLowerCase()}`)
+    else if (outline.value) {
+      classes.push(`btn-outline-${variant.value.toLowerCase()}`)
     }
-    else if (transparent) {
-      classes.push(`btn-transparent-${variant.toLowerCase()}`)
+    else if (transparent.value) {
+      classes.push(`btn-transparent-${variant.value.toLowerCase()}`)
     }
     else {
-      classes.push(`btn-${variant.toLowerCase()}`)
+      classes.push(`btn-${variant.value.toLowerCase()}`)
     }
   }
 
   if (size) {
     classes.push({
-      'py-2 px-4': size === btnSize.DEFAULT,
-      'w-full py-2 px-5': size === btnSize.BLOCK,
-      'text-xs py-1 px-2': size === btnSize.SM,
-      'text-sm py-1.5 px-3': size === btnSize.MD,
-      'text-lg py-2.5 px-5': size === btnSize.LG,
+      'py-2 px-4': size.value === btnSize.DEFAULT,
+      'w-full py-2 px-5': size.value === btnSize.BLOCK,
+      'text-xs py-1 px-2': size.value === btnSize.SM,
+      'text-sm py-1.5 px-3': size.value === btnSize.MD,
+      'text-lg py-2.5 px-5': size.value === btnSize.LG,
     })
   }
 
