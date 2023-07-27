@@ -11,7 +11,7 @@ export const typography: TypographyOptions = {
     h3: headlineStyles,
     p: {
       'font-family': 'Inter',
-      'font-size': '1.125rem',
+      'font-size': '1rem',
     },
     code: {
       'font-family': 'Fira Code iScript',
