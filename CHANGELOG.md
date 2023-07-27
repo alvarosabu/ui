@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.10](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.9...3.0.0-alpha.10) (2023-07-27)
+
+
+### Bug Fixes
+
+* fixed typo on umd export ([c5a3230](https://github.com/alvarosabu/ui/commit/c5a3230474883424ac4fb56e1d9d0359f9843aac))
+
 ## [3.0.0-alpha.9](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.8...3.0.0-alpha.9) (2023-07-27)
 
 
