@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.12](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.11...3.0.0-alpha.12) (2023-07-27)
+
+
+### Features
+
+* changed font size of inter to 16px ([7cc717a](https://github.com/alvarosabu/ui/commit/7cc717a0be22098f562ef27416ffbaeae65b5259))
+
 ## [3.0.0-alpha.11](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.10...3.0.0-alpha.11) (2023-07-27)
 
 
