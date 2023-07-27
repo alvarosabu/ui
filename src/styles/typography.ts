@@ -10,7 +10,7 @@ export const typography: TypographyOptions = {
     h2: headlineStyles,
     h3: headlineStyles,
     p: {
-      'font-family': 'Inter',
+      'font-family': 'Nunito',
       'font-size': '1rem',
     },
     code: {
