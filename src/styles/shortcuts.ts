@@ -15,5 +15,5 @@ export const LayoutShortcuts = [
   },
 ]
 
-export const ASShortcuts: UserShortcuts<any> = [...btnShortcuts, ...HeadlineShortcuts, ...LayoutShortcuts]
-export default ASShortcuts
+export const shortcuts: UserShortcuts<any> = [...btnShortcuts, ...HeadlineShortcuts, ...LayoutShortcuts]
+export default shortcuts

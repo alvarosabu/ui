@@ -1,6 +1,6 @@
 import type { IconsOptions } from '@unocss/preset-icons'
 
-export const ASIconsOptions: IconsOptions = {
+export const icons: IconsOptions = {
   scale: 1.2,
   warn: true,
   extraProperties: {
@@ -10,4 +10,4 @@ export const ASIconsOptions: IconsOptions = {
   },
 }
 
-export default ASIconsOptions
+export default icons

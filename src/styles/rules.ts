@@ -1,6 +1,6 @@
 import type { Rule } from 'unocss'
 
-export const ASRules: Rule[] = [
+export const rules: Rule[] = [
   [
     'text-bg-md',
     {
@@ -20,4 +20,3 @@ export const ASRules: Rule[] = [
   [/^line-height-(\d+)$/, ([, d]) => ({ 'line-height': `${parseInt(d) * 0.25}` })],
 ]
 
-export default ASRules

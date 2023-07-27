@@ -1,6 +1,6 @@
 import type { WebFontsOptions } from '@unocss/preset-web-fonts'
 
-export const ASWebFontsOptions: WebFontsOptions = {
+export const fonts: WebFontsOptions = {
   provider: 'google', // default provider
   fonts: {
     // these will extend the default theme
@@ -10,4 +10,4 @@ export const ASWebFontsOptions: WebFontsOptions = {
   },
 }
 
-export default ASWebFontsOptions
+export default fonts

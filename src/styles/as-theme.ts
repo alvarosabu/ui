@@ -30,7 +30,7 @@ export const secondary = {
   900: '#0B3023',
 }
 
-export const ASTheme = {
+export const theme = {
   colors: {
     primary,
     secondary,

@@ -1,10 +1,10 @@
 import type { TypographyOptions } from '@unocss/preset-typography'
-import { ASTheme } from './as-theme'
+import { theme } from './as-theme'
 
 const headlineStyles = {
   'font-family': 'Gilroy',
 }
-export const ASTypographyOptions: TypographyOptions = {
+export const typography: TypographyOptions = {
   cssExtend: {
     h1: headlineStyles,
     h2: headlineStyles,
@@ -16,7 +16,7 @@ export const ASTypographyOptions: TypographyOptions = {
     code: {
       'font-family': 'Fira Code iScript',
       'font-size': '0.875rem',
-      color: `${ASTheme?.colors?.primary[500]} !important`,
+      color: `${theme?.colors?.primary[500]} !important`,
     },
     ':not(pre)>code': {
       background: '#e8e8e8 !important',
@@ -32,16 +32,16 @@ export const ASTypographyOptions: TypographyOptions = {
       content: 'none',
     },
     a: {
-      color: ASTheme?.colors?.secondary[500],
+      color: theme?.colors?.secondary[500],
       'font-weight': 'bold',
       'text-decoration': 'none',
       transition: 'color 400ms ease-in-out',
     },
     'a:hover': {
-      color: ASTheme?.colors?.secondary[600],
+      color: theme?.colors?.secondary[600],
       transition: 'color 400ms ease-in-out',
     },
   },
 }
 
-export default ASTypographyOptions
+export default typography

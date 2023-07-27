@@ -1,18 +1,26 @@
 {
   "name": "@alvarosabu/ui",
+  "type": "module",
   "version": "3.0.0-alpha.4",
+  "packageManager": "pnpm@8.3.1",
   "description": "UI Library for my personal projects",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",
-  "type": "module",
-  "packageManager": "pnpm@8.3.1",
   "license": "MIT",
+  "keywords": [
+    "ui",
+    "vue",
+    "composable"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./dist/as-ui.js",
-      "types": "./dist/as-ui.d.ts"
+      "types": "./dist/as-ui.d.ts",
+      "import": "./dist/as-ui.js"
     },
-    "./styles": "./dist/style.css",
+    "./styles": {
+      "types": "./dist/styles/index.d.ts",
+      "import": "./dist/styles.css"
+    },
     "./*": "./*"
   },
   "main": "./dist/as-ui.js",
@@ -24,11 +32,6 @@
   "files": [
     "dist",
     "*.d.ts"
-  ],
-  "keywords": [
-    "ui",
-    "vue",
-    "composable"
   ],
   "scripts": {
     "dev": "vite",
@@ -42,6 +45,12 @@
     "story:dev": "histoire dev",
     "story:build": "histoire build",
     "story:preview": "histoire preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.2.1",
+    "sass": "^1.64.1",
+    "shikey": "^0.0.2",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@alvarosabu/eslint-config": "^0.4.0",
@@ -70,11 +79,5 @@
     "vite-plugin-dts": "^3.3.1",
     "vite-svg-loader": "^4.0.0",
     "vitest": "^0.33.0"
-  },
-  "dependencies": {
-    "@vueuse/core": "^10.2.1",
-    "sass": "^1.64.1",
-    "shikey": "^0.0.2",
-    "vue": "^3.3.4"
   }
 }
