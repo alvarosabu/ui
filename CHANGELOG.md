@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.7](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.6...3.0.0-alpha.7) (2023-07-27)
+
+
+### Bug Fixes
+
+* export for styles ([0d7e03f](https://github.com/alvarosabu/ui/commit/0d7e03fccecff4563d01800c34daf2d50d53feae))
+
 ## [3.0.0-alpha.6](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.5...3.0.0-alpha.6) (2023-07-27)
 
 
