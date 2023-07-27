@@ -13,7 +13,7 @@ export interface TextImageProps {
   direction?: string
 }
 const props = withDefaults(defineProps<TextImageProps>(), { 
-  direction: textImgDirection.ROW 
+  direction: textImgDirection.ROW, 
 })
 
 const { media, direction } = toRefs(props)
