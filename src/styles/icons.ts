@@ -9,5 +9,3 @@ export const icons: IconsOptions = {
     // ...
   },
 }
-
-export default icons

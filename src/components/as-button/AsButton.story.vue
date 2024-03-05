@@ -198,7 +198,7 @@ function initState() {
 </template>
 
 <style>
-.__histoire-sandbox > div {
+.__histoire-render-story > div {
   padding: 1rem;
 }
 </style>

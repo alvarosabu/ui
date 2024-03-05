@@ -73,7 +73,7 @@ const btnClasses = computed(() => {
     :target="link ? target : undefined"
     :class="btnClasses"
     font="sans semibold"
-    border="2 rounded-sm"
+    border="2 rounded"
     flex
     items-center 
     justify-center
@@ -84,7 +84,7 @@ const btnClasses = computed(() => {
     cursor-pointer
     decoration-none
   >
-    <slot name="preffix">
+    <slot name="prefix">
       <AsIcon
         v-if="icon"
         :name="icon"
@@ -109,7 +109,7 @@ const btnClasses = computed(() => {
 <style>
 .as-btn:not([class*="btn-flat-"], [class*="btn-transparent-"]):hover {
   /* TODO: Add transform directives on unocss and replace this */
-  /* @apply transform -translate-x-0.5 -translate-y-0.5; */
-  transform: translate(-0.125rem, -0.125rem);
+  @apply transform -translate-x-0.5 -translate-y-0.5;
+  /*transform: translate(-0.125rem, -0.125rem); */
 }
 </style>

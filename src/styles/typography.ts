@@ -10,7 +10,7 @@ export const typography: TypographyOptions = {
     h2: headlineStyles,
     h3: headlineStyles,
     p: {
-      'font-family': 'Nunito',
+      'font-family': 'Inter',
       'font-size': '1rem',
     },
     code: {
@@ -43,5 +43,3 @@ export const typography: TypographyOptions = {
     },
   },
 }
-
-export default typography

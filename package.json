@@ -51,7 +51,8 @@
     "test:ui": "vitest --ui",
     "story:dev": "histoire dev",
     "story:build": "histoire build",
-    "story:preview": "histoire preview"
+    "story:preview": "histoire preview",
+    "playground": "cd playground && npm run dev"
   },
   "dependencies": {
     "@vueuse/core": "^10.9.0",

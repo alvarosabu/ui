@@ -2,7 +2,7 @@
 @import './shiki.css';
 
 body {
-  @apply text-primary-400;
+  @apply text-primary-400 font-sans;
 }
 
 .dark {
