@@ -9,7 +9,7 @@ import {
   presetAttributify,
 } from 'unocss'
 
-import type { Preset } from 'unocss'
+import type { ConfigBase, Preset } from 'unocss'
 
 /* import { imgAspectRatiosSafelist } from '../components/as-img/const' */
 import { btnSafelist } from '../components/as-button/const'
@@ -21,6 +21,9 @@ import { imgAspectRatiosSafelist } from '../components/as-img/const'
 
 /* import { iconSafelist } from '../components/as-icon/const' */
 
+/**
+ * Configuration object for ASUno.
+ */
 export const ASUnoConfig = defineConfig({
   theme,
   shortcuts,
@@ -38,6 +41,4 @@ export const ASUnoConfig = defineConfig({
     presetWebFonts(fonts) as Preset,
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
-})
-
-export default ASUnoConfig
+}) as ConfigBase
