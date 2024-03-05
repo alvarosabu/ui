@@ -1,5 +1,12 @@
 
 
+## [3.0.0-alpha.15](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.14...3.0.0-alpha.15) (2024-03-05)
+
+
+### Bug Fixes
+
+* fixed buttons ([2e62d52](https://github.com/alvarosabu/ui/commit/2e62d520f7bf8da71850f7d97a9254c2b649904d))
+
 ## [3.0.0-alpha.14](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.13...3.0.0-alpha.14) (2024-03-05)
 
 ## [3.0.0-alpha.13](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.12...3.0.0-alpha.13) (2023-07-27)
