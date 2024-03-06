@@ -1,5 +1,13 @@
 
 
+## [3.0.0-alpha.16](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.15...3.0.0-alpha.16) (2024-03-06)
+
+
+### Bug Fixes
+
+* export codeblock ([ffc7fc3](https://github.com/alvarosabu/ui/commit/ffc7fc3cf9350fd6479de438b8612ada646223d4))
+* **styles:** add breakpoint to container shortcut ([9854956](https://github.com/alvarosabu/ui/commit/98549564e828b00f688d43a04fc80a84ed31490f))
+
 ## [3.0.0-alpha.15](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.14...3.0.0-alpha.15) (2024-03-05)
 
 
