@@ -11,7 +11,7 @@ export const HeadlineShortcuts = [
 
 export const LayoutShortcuts = [
   {
-    'as-container': 'container mx-auto px-4 lg:px-0',
+    'as-container': 'lg:container mx-auto px-4 lg:px-0',
   },
 ]
 
