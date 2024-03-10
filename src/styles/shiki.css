@@ -29,7 +29,8 @@ pre[class*='language-typescript']::before {
   margin-right: -0.08em;
 }
 
-span[style*="color: var(--shiki-token-keyword)"], span[style*="color: var(--shiki-token-function)"] {
+span[style*='color: var(--shiki-token-keyword)'],
+span[style*='color: var(--shiki-token-function)'] {
   font-style: italic;
 }
 

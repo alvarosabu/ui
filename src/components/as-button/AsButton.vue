@@ -75,7 +75,7 @@ const btnClasses = computed(() => {
     font="sans semibold"
     border="2 rounded"
     flex
-    items-center 
+    items-center
     justify-center
     gap-2
     transition-all
@@ -107,7 +107,7 @@ const btnClasses = computed(() => {
 </template>
 
 <style>
-.as-btn:not([class*="btn-flat-"], [class*="btn-transparent-"]):hover {
+.as-btn:not([class*='btn-flat-'], [class*='btn-transparent-']):hover {
   /* TODO: Add transform directives on unocss and replace this */
   @apply transform -translate-x-0.5 -translate-y-0.5;
   /*transform: translate(-0.125rem, -0.125rem); */

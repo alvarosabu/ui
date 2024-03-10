@@ -1,16 +1,14 @@
 import { createSharedComposable, useActiveElement } from '@vueuse/core'
-import { ref, computed, onMounted } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import type {} from '@vueuse/shared'
 
 export const _useShortcuts = () => {
-  // eslint-disable-next-line max-len
   const macOS = computed(() => process.client && navigator && navigator.userAgent && navigator.userAgent.match(/Macintosh;/))
 
   const metaSymbol = ref(' ')
 
   const activeElement = useActiveElement()
   const usingInput = computed(() => {
-    // eslint-disable-next-line max-len
     const usingInput = !!(activeElement.value?.tagName === 'INPUT' || activeElement.value?.tagName === 'TEXTAREA' || activeElement.value?.contentEditable === 'true')
 
     if (usingInput) {

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, h, computed } from 'vue'
+import { computed, h, ref } from 'vue'
 import AsButton from '../../components/as-button/AsButton.vue'
 
 import { useSyntaxHighlighter } from '../../composables/useSyntaxHighlighter'

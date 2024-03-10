@@ -5,7 +5,7 @@ import SvgLoader from 'vite-svg-loader'
 import dts from 'vite-plugin-dts'
 import banner from 'vite-plugin-banner'
 
-import { bold, bgLightGreen } from 'kolorist'
+import { bgLightGreen, bold } from 'kolorist'
 
 import { resolve } from 'pathe'
 
@@ -54,7 +54,7 @@ export default defineConfig({
         // Provide global variables to use in the UMD build
         // for externalized deps
         globals: {
-          vue: 'Vue',
+          'vue': 'Vue',
           '@vueuse/shared': 'VueUseShared',
           '@vueuse/core': 'VueUseCore',
         },

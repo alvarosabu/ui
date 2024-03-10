@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { toRefs } from 'vue';
+import { toRefs } from 'vue'
 import { kbdSize } from './const'
 
 const props = withDefaults(defineProps<{
   size: 'xs' | 'sm' | 'md'
   value: string
-}>(), { size: kbdSize.SM } )
+}>(), { size: kbdSize.SM })
 
 const { size, value } = toRefs(props)
 
@@ -47,4 +47,3 @@ const kbdSizeClass = {
   margin-right: 0.25rem;
 }
 </style>
-

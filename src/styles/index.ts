@@ -1,3 +1,5 @@
+import './shiki.css'
+
 export * from './as-theme'
 export * from './fonts'
 export * from './shortcuts'

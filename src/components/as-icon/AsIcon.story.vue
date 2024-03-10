@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { reactive, computed } from 'vue'
+import { computed, reactive } from 'vue'
 import AsIcon from './AsIcon.vue'
 import { iconList } from './const'
 

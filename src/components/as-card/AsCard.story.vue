@@ -7,7 +7,7 @@ function initState() {
     title: 'Soy una pequeña tetera',
     subtitle: 'Pero no una tetera cualquiera',
     media:
-      // eslint-disable-next-line max-len
+
       'https://res.cloudinary.com/alvarosaburido/image/upload/v1610379831/blog/Create%20Dynamic%20Forms%20in%20Vue3/create-dynamic-forms-in-vue3_xirpvg.png',
     content: 'Easy way to dynamically create reactive forms in vue based on a varying business',
   }
@@ -83,7 +83,7 @@ function initState() {
                 src="https://avatars.githubusercontent.com/u/72650433?s=200&v=4"
                 alt="asigloo"
                 class="rounded-full w-6 h-6"
-              >
+              />
             </header>
           </header>
         </template>

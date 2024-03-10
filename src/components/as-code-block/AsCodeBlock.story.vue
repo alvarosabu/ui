@@ -3,7 +3,7 @@ import { reactive } from 'vue'
 import AsCodeBlock from './AsCodeBlock.vue'
 
 const state = reactive({
-  // eslint-disable-next-line max-len
+
   code: 'import Awiwi from \'Awiwi.vue\' \n const getProducts = async () => {\n  try {\n    return apolloClient.query({\n      query: FETCH_PRODUCTS,\n      variables: {\n        order_by: { created_at: \'asc\' },\n      },\n    });\n  } catch (e) {\n    console.error(\'err\', e);\n  }\n};',
   language: 'javascript',
 })
@@ -18,7 +18,7 @@ const state = reactive({
     }"
   >
     <Variant
-      title="playground" 
+      title="playground"
       auto-props-disabled
     >
       <template #default>

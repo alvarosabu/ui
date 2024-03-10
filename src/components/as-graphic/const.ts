@@ -8,14 +8,14 @@ import CurveSmall from '../../assets/svg/curve-small.svg'
 import Blob from '../../assets/svg/blob.svg'
 
 export enum graphicType {
-  'ZIGZAG' = 'zigzag',
-  'DOTS' = 'dots',
-  'DOTS_2X' = 'dots-2x',
-  'CROSS' = 'cross',
-  'DONUT' = 'donut',
-  'CURVE_BIG' = 'curve-big',
-  'CURVE_SMALL' = 'curve-small',
-  'BLOB' = 'blob',
+  ZIGZAG = 'zigzag',
+  DOTS = 'dots',
+  DOTS_2X = 'dots-2x',
+  CROSS = 'cross',
+  DONUT = 'donut',
+  CURVE_BIG = 'curve-big',
+  CURVE_SMALL = 'curve-small',
+  BLOB = 'blob',
 }
 
 export const graphicTypeMap: Record<string, any> = {

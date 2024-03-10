@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useDark, useToggle, useFocus } from '@vueuse/core'
+import { useDark, useFocus, useToggle } from '@vueuse/core'
 import { ref } from 'vue'
 
 const isDark = useDark()
@@ -28,19 +28,19 @@ const { focused } = useFocus(inputRef)
       tab-index="0"
       :checked="!isDark"
       @change="toggleDark()"
-    >
+    />
     <label
       for="dark-switch"
       relative
       cursor-pointer
     >
-      <div class="planet" />
+      <div class="planet"></div>
       <div class="dots">
         <span
           v-for="dot of [0, 45, 90, 135, 180, 225, 270, 315]"
           :key="`dot-${dot}`"
           :class="`dot-${dot}`"
-        />
+        ></span>
       </div>
     </label>
   </div>
@@ -104,7 +104,9 @@ $_precision: 10;
   $a: _to_unitless_rad($angle);
   $sin: $a;
   @for $n from 1 through $_precision {
-    $sin: $sin + (math.div(pow(-1, $n), fact(2 * $n + 1))) * pow($a, (2 * $n + 1));
+    $sin: $sin +
+      (math.div(pow(-1, $n), fact(2 * $n + 1))) *
+      pow($a, (2 * $n + 1));
   }
   @return $sin;
 }
@@ -144,7 +146,9 @@ $_precision: 10;
 
       background-color: $shadow;
       content: '';
-      transition: transform 400ms ease-in-out, opacity 200ms ease-in-out;
+      transition:
+        transform 400ms ease-in-out,
+        opacity 200ms ease-in-out;
     }
   }
 
@@ -172,7 +176,9 @@ $_precision: 10;
 
     background-color: $sun;
     opacity: 1;
-    transition: transform 400ms ease-in-out, opacity 200ms ease-in-out;
+    transition:
+      transform 400ms ease-in-out,
+      opacity 200ms ease-in-out;
   }
 
   @each $angle in $angles {
@@ -221,7 +227,9 @@ $_precision: 10;
     }
 
     [class*='dot-'] {
-      transition: transform 400ms ease, opacity 200ms ease;
+      transition:
+        transform 400ms ease,
+        opacity 200ms ease;
       transform: translate(calc(50% - 3px), calc(50% - 3px));
       opacity: 0;
     }

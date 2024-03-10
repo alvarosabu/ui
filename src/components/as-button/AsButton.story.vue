@@ -2,9 +2,10 @@
 import { computed } from 'vue'
 
 import { iconList } from '../as-icon'
-import AsButton from './AsButton.vue'
 
-import { btnVariant /* btnVariantList */ } from './const'
+import { btnVariant } from './const'
+
+import AsButton from './AsButton.vue'
 
 const btnVariants = ['primary', 'secondary']
 
@@ -82,7 +83,7 @@ function initState() {
           v-model="state.icon"
           title="Icon"
           :options="iconOptions"
-        /> 
+        />
         <HstSelect
           v-model="state.iconRight"
           title="IconRight"

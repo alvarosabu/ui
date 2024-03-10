@@ -9,6 +9,7 @@ function initState() {
   }
 }
 </script>
+
 <template>
   <Story
     title="AsGraphic"

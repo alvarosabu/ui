@@ -50,7 +50,7 @@ function onClose() {
         bg-gray-500
         bg-opacity-75
         transition-opacity
-      />
+      ></div>
     </Transition>
     <Transition
       name="fade-overlay"
@@ -128,7 +128,7 @@ function onClose() {
               </div>
             </div>
             <footer class="px-4 py-3 flex justify-end">
-              <slot name="footer" />
+              <slot name="footer"></slot>
             </footer>
           </div>
         </div>

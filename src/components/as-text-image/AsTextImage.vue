@@ -12,8 +12,8 @@ export interface TextImageProps {
   }
   direction?: string
 }
-const props = withDefaults(defineProps<TextImageProps>(), { 
-  direction: textImgDirection.ROW, 
+const props = withDefaults(defineProps<TextImageProps>(), {
+  direction: textImgDirection.ROW,
 })
 
 const { media, direction } = toRefs(props)
@@ -51,7 +51,7 @@ const isReverse = computed(() => direction.value === textImgDirection.REVERSE)
       class="w-full sm:w-1/2 prose"
       :class="isReverse ? 'sm:pr-16' : 'sm:pl-16'"
     >
-      <slot />
+      <slot></slot>
     </div>
   </div>
 </template>

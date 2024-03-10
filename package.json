@@ -24,8 +24,8 @@
   "exports": {
     ".": {
       "types": "./dist/as-ui.d.ts",
-      "require": "./dist/as-ui.umd.cjs",
-      "import": "./dist/as-ui.js"
+      "import": "./dist/as-ui.js",
+      "require": "./dist/as-ui.umd.cjs"
     },
     "./styles": "./dist/style.css",
     "./*": "./*"
@@ -37,14 +37,15 @@
     "access": "public"
   },
   "files": [
-    "dist",
-    "*.d.ts"
+    "*.d.ts",
+    "dist"
   ],
   "scripts": {
     "dev": "vite",
     "build": "vite build --config vite.lib.config.ts",
     "preview": "vite preview",
-    "lint": "eslint --ext .ts,.tsx .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "vitest",
     "release": "release-it",
     "release:alpha": "release-it --preRelease=alpha",
@@ -61,8 +62,7 @@
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@alvarosabu/eslint-config": "^0.4.0",
-    "@alvarosabu/eslint-config-vue": "^0.4.0",
+    "@alvarosabu/eslint-config": "^1.0.0",
     "@histoire/plugin-vue": "^0.17.12",
     "@iconify-json/ant-design": "^1.1.15",
     "@iconify-json/carbon": "^1.1.31",
@@ -70,7 +70,7 @@
     "@iconify-json/logos": "^1.1.42",
     "@iconify-json/octicon": "^1.1.52",
     "@iconify-json/teenyicons": "^1.1.9",
-    "@iconify/json": "^2.2.189",
+    "@iconify/json": "^2.2.190",
     "@release-it/conventional-changelog": "^8.0.1",
     "@unocss/preset-web-fonts": "^0.58.5",
     "@vitejs/plugin-vue": "^5.0.4",
@@ -80,7 +80,7 @@
     "kolorist": "^1.8.0",
     "pathe": "^1.1.2",
     "release-it": "^17.1.1",
-    "typescript": "^5.3.3",
+    "typescript": "^5.4.2",
     "unocss": "^0.58.5",
     "vite": "^5.1.5",
     "vite-plugin-banner": "^0.7.1",

@@ -4,7 +4,7 @@ import Unocss from 'unocss/vite'
 import SvgLoader from 'vite-svg-loader'
 import dts from 'vite-plugin-dts'
 
-import { bold, bgLightGreen } from 'kolorist'
+import { bgLightGreen, bold } from 'kolorist'
 
 import pkg from './package.json'
 

@@ -4,4 +4,3 @@ export * from './AsTextImage.vue'
 export * from './const'
 
 export { AsTextImage }
-

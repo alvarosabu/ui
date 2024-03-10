@@ -72,7 +72,7 @@ defineProps<CardProps>()
         w-full
         text-sm
         justify-end
-      />
+      ></footer>
     </slot>
   </div>
 </template>

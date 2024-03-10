@@ -5,11 +5,11 @@ import AsImg from './AsImg.vue'
 import {
   imgAspectRatios,
   imgCaptionType,
-  imgFitModes,
-  imgLoadingMode,
-  imgFitModesList,
-  imgLoadingModeList,
   imgCaptionTypeList,
+  imgFitModes,
+  imgFitModesList,
+  imgLoadingMode,
+  imgLoadingModeList,
 } from './const'
 
 const state = reactive({

@@ -1,12 +1,12 @@
 import {
-  presetUno,
+  defineConfig,
+  presetAttributify,
   presetIcons,
   presetTypography,
+  presetUno,
   presetWebFonts,
   transformerDirectives,
   transformerVariantGroup,
-  defineConfig,
-  presetAttributify,
 } from 'unocss'
 
 import type { ConfigBase } from 'unocss'
@@ -25,8 +25,8 @@ export const ASUnoConfig = defineConfig({
   shortcuts,
   rules,
   safelist: [
-    ...btnSafelist, 
-    ...iconSafelist, 
+    ...btnSafelist,
+    ...iconSafelist,
     ...imgAspectRatiosSafelist,
   ],
   presets: [

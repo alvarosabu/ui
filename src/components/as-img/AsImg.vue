@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { StyleValue } from 'vue'
 import { computed, ref, toRefs, useAttrs } from 'vue'
-import { imgFitModes, imgCaptionType, imgAspectRatios } from './const'
+import { imgAspectRatios, imgCaptionType, imgFitModes } from './const'
 
 export interface ImgProps {
   aspectRatio?: string
@@ -16,13 +16,12 @@ const props = withDefaults(defineProps<ImgProps>(), {
   captionType: imgCaptionType.OUTSIDE,
 })
 
-const { aspectRatio, objectFit, caption, captionType } = toRefs(props)
-
-// eslint-disable-next-line
 const emit = defineEmits<{
   (e: 'loaded', event: Event): void
   (e: 'error', errorMessage: string): void
 }>()
+
+const { aspectRatio, objectFit, caption, captionType } = toRefs(props)
 
 const attrs = useAttrs()
 
@@ -52,7 +51,7 @@ const figureClasses = ref([
   'overflow-hidden',
   'rounded',
   'm-0',
-  aspectRatio ? `aspect-${aspectRatio.value}` : null,
+  aspectRatio.value ? `aspect-${aspectRatio.value}` : null,
 ])
 
 const captionClasses = computed(() => {
@@ -96,7 +95,7 @@ function onError(event: Event) {
       :style="imgStyles"
       @load="onLoad"
       @error="onError"
-    >
+    />
     <!-- TODO: Implement when loaders -->
     <!--  <as-particle-loader
       size="4rem"

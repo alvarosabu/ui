@@ -6,7 +6,7 @@ import UnoCSS from 'unocss/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    vue(), 
+    vue(),
     UnoCSS({
       configFile: resolve(__dirname, '../unocss.config.ts'),
     }),
