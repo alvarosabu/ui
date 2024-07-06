@@ -1,3 +1,17 @@
+:root {
+  --shiki-color-text: #88e5c3;
+  --shiki-color-background: #3e5166;
+  --shiki-token-constant: #7aceaf;
+  --shiki-token-string: #f8e4aa;
+  --shiki-token-comment: #a0ada0;
+  --shiki-token-keyword: #ff80bf;
+  --shiki-token-parameter: #f8e4aa;
+  --shiki-token-function: #e5f1af;
+  --shiki-token-string-expression: #f8e4aa;
+  --shiki-token-punctuation: #fbfbfb;
+  --shiki-token-link: #b3f9df;
+}
+
 /* pre[class*='language-']::before {
   @apply absolute right-2 top-2 p-0.5 sm:p-2 rounded text-xs sm:text-sm;
 } */
@@ -34,19 +48,7 @@ span[style*='color: var(--shiki-token-function)'] {
   font-style: italic;
 }
 
-:root {
-  --shiki-color-text: #88e5c3;
-  --shiki-color-background: #3e5166;
-  --shiki-token-constant: #7aceaf;
-  --shiki-token-string: #f8e4aa;
-  --shiki-token-comment: #a0ada0;
-  --shiki-token-keyword: #ff80bf;
-  --shiki-token-parameter: #f8e4aa;
-  --shiki-token-function: #e5f1af;
-  --shiki-token-string-expression: #f8e4aa;
-  --shiki-token-punctuation: #fbfbfb;
-  --shiki-token-link: #b3f9df;
-}
+
 
 .dark {
   --shiki-color-background: #273341;
