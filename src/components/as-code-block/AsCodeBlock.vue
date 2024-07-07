@@ -43,7 +43,7 @@ async function copyToClipboard() {
 
 const { highlighter } = await useSyntaxHighlighter()
 
-const codeHtml = highlighter.codeToHtml(props.code as string, { lang: formattedLanguage.value })
+const codeHtml = highlighter.codeToHtml(props.code as string, { lang: formattedLanguage.value, theme: 'css-variables' })
 
 const root = () => h('div', { innerHTML: codeHtml.replace('class="shiki"', 'class="shiki not-prose"') })
 </script>

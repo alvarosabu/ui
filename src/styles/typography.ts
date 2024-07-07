@@ -33,7 +33,7 @@ export const typography: TypographyOptions = {
     },
     'a': {
       'color': theme?.colors?.secondary[500],
-      'font-weight': 'bold',
+      'font-weight': 500,
       'text-decoration': 'none',
       'transition': 'color 400ms ease-in-out',
     },
