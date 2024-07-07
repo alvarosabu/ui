@@ -48,8 +48,6 @@ span[style*='color: var(--shiki-token-function)'] {
   font-style: italic;
 }
 
-
-
 .dark {
   --shiki-color-background: #273341;
 }

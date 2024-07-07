@@ -6,7 +6,7 @@ defineProps({
     type: String,
     default: '1rem',
     validator: (val) => {
-      const REGEX = /^([0-9]*\.?[0-9]+)(em|rem|px|%|)$/
+      const REGEX = /^(?:\d+(?:\.\d+)?|\.\d+)(?:em|rem|px|%)?$/
       const valid = REGEX.test(val as string)
 
       if (!valid) {
