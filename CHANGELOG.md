@@ -1,5 +1,12 @@
 
 
+## [3.0.0-beta.2](https://github.com/alvarosabu/ui/compare/3.0.0-beta.1...3.0.0-beta.2) (2024-07-08)
+
+
+### Bug Fixes
+
+* **build:** fixed umd build ([481eecd](https://github.com/alvarosabu/ui/commit/481eecdc5e3da20e3a5925912d0369c048d3a359))
+
 ## [3.0.0-beta.1](https://github.com/alvarosabu/ui/compare/3.0.0-beta.0...3.0.0-beta.1) (2024-07-08)
 
 
