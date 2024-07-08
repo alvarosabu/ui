@@ -1,6 +1,6 @@
 :root {
   --shiki-color-text: #88e5c3;
-  --shiki-color-background: #3e5166;
+  --shiki-background: #3e5166;
   --shiki-token-constant: #7aceaf;
   --shiki-token-string: #f8e4aa;
   --shiki-token-comment: #a0ada0;
@@ -49,12 +49,12 @@ span[style*='color: var(--shiki-token-function)'] {
 }
 
 .dark {
-  --shiki-color-background: #273341;
+  --shiki-background: #273341;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --shiki-color-background: #273341;
+    --shiki-background: #273341;
   }
 }
 pre.shiki {
