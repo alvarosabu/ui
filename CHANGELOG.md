@@ -1,5 +1,18 @@
 
 
+## [3.0.0-beta.0](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.16...3.0.0-beta.0) (2024-07-07)
+
+
+### Features
+
+* add theme to as code block ([92c7fbd](https://github.com/alvarosabu/ui/commit/92c7fbda47e8dd1e7b20fb6f2e059267d63608a4))
+* use shiki instead of shikey ([a5de580](https://github.com/alvarosabu/ui/commit/a5de580b5a3a72fc1326a8f0b552cbbdb5ee6c40))
+
+
+### Bug Fixes
+
+* reduced font-weight links ([185fe0c](https://github.com/alvarosabu/ui/commit/185fe0cbcf51ea2a6cf5b52419d5e9122809f9cb))
+
 ## [3.0.0-alpha.16](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.15...3.0.0-alpha.16) (2024-03-06)
 
 

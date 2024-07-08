@@ -8,11 +8,13 @@ export const asShikiTheme = createCssVariablesTheme({
   variableDefaults: {},
   fontStyle: true,
 })
+
+export const highlighter = await createHighlighter({
+  themes: [asShikiTheme],
+  langs: ['javascript', 'typescript', 'html', 'json', 'bash', 'css', 'xml', 'yaml', 'markdown'],
+})
+
 export async function useSyntaxHighlighter() {
-  const highlighter = await createHighlighter({
-    themes: [asShikiTheme],
-    langs: ['javascript', 'typescript', 'html', 'json', 'bash', 'css', 'xml', 'yaml', 'markdown'],
-  })
   return {
     highlighter,
   }
