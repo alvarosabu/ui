@@ -1,5 +1,5 @@
 :root {
-  --shiki-color-text: #88e5c3;
+  --shiki-foreground: #88e5c3;
   --shiki-background: #3e5166;
   --shiki-token-constant: #7aceaf;
   --shiki-token-string: #f8e4aa;
