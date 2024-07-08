@@ -1,7 +1,7 @@
 {
   "name": "@alvarosabu/ui",
   "type": "module",
-  "version": "3.0.0-beta.0",
+  "version": "3.0.0-beta.1",
   "packageManager": "pnpm@8.12.0",
   "description": "UI Library for my personal projects",
   "author": "Alvaro Saburido <hola@alvarosaburido.dev> (https://github.com/alvarosabu/)",

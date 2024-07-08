@@ -1,5 +1,13 @@
 
 
+## [3.0.0-beta.1](https://github.com/alvarosabu/ui/compare/3.0.0-beta.0...3.0.0-beta.1) (2024-07-08)
+
+
+### Bug Fixes
+
+* issue with multiple instances of highlighter ([aa66b7e](https://github.com/alvarosabu/ui/commit/aa66b7e65f29d680d6a7f53d7d61a8b2f25faf54))
+* **styles:** import base styles into bundle ([1861797](https://github.com/alvarosabu/ui/commit/1861797ec649b3f5e679cd408c8d0c799595d394))
+
 ## [3.0.0-beta.0](https://github.com/alvarosabu/ui/compare/3.0.0-alpha.16...3.0.0-beta.0) (2024-07-07)
 
 
