@@ -1,5 +1,12 @@
 
 
+## [3.0.0-beta.3](https://github.com/alvarosabu/ui/compare/3.0.0-beta.2...3.0.0-beta.3) (2024-07-08)
+
+
+### Bug Fixes
+
+* **styles:** added shiki foreground color ([53d8d52](https://github.com/alvarosabu/ui/commit/53d8d529410ffb15c877511a0122e07064f5bd2f))
+
 ## [3.0.0-beta.2](https://github.com/alvarosabu/ui/compare/3.0.0-beta.1...3.0.0-beta.2) (2024-07-08)
 
 
