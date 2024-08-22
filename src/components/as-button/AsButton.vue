@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, toRefs } from 'vue'
 import AsIcon from '../as-icon/AsIcon.vue'
+import type { ButtonProps } from './const'
 import { btnSize } from './const'
 
 const props = withDefaults(defineProps<ButtonProps>(), {
@@ -13,20 +14,6 @@ const props = withDefaults(defineProps<ButtonProps>(), {
   size: 'default',
   transparent: false,
 })
-
-export interface ButtonProps {
-  label?: string
-  icon?: string
-  iconRight?: string
-  disabled?: boolean
-  outline?: boolean
-  link?: boolean
-  target?: string
-  variant?: string
-  size?: string
-  flat?: boolean
-  transparent?: boolean
-}
 
 const { label, icon, iconRight, disabled, outline, link, target, variant, size, flat, transparent } = toRefs(props)
 

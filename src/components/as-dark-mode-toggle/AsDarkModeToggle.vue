@@ -104,9 +104,7 @@ $_precision: 10;
   $a: _to_unitless_rad($angle);
   $sin: $a;
   @for $n from 1 through $_precision {
-    $sin: $sin +
-      (math.div(pow(-1, $n), fact(2 * $n + 1))) *
-      pow($a, (2 * $n + 1));
+    $sin: $sin + (math.div(pow(-1, $n), fact(2 * $n + 1))) * pow($a, (2 * $n + 1));
   }
   @return $sin;
 }

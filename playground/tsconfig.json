@@ -10,7 +10,7 @@
     "moduleResolution": "bundler",
 
     "paths": {
-      "@tresjs/core": ["../dist/"]
+      "@alvarosabu/ui": ["../dist/"]
     },
     "resolveJsonModule": true,
     "allowImportingTsExtensions": true,
