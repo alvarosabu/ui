@@ -1,5 +1,12 @@
 
 
+## [3.0.0](https://github.com/alvarosabu/ui/compare/3.0.0-beta.3...3.0.0) (2024-08-22)
+
+
+### Bug Fixes
+
+* update deps ([8205515](https://github.com/alvarosabu/ui/commit/8205515142d543558b4d5623c610c38528441b03))
+
 ## [3.0.0-beta.3](https://github.com/alvarosabu/ui/compare/3.0.0-beta.2...3.0.0-beta.3) (2024-07-08)
 
 
