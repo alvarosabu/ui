@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import '@alvarosabu/ui/'
+/* import '@alvarosabu/ui/' */
 import './style.css'
 import App from './App.vue'
 

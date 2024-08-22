@@ -67,6 +67,24 @@ export const btnSafelist = [
 ]
 
 export const btnVariantList = Object.values(btnVariant)
+
+export interface ButtonProps {
+  /**
+   * Represents the properties of a button component.
+   */
+  label?: string
+  icon?: string
+  iconRight?: string
+  disabled?: boolean
+  outline?: boolean
+  link?: boolean
+  target?: string
+  variant?: string
+  size?: string
+  flat?: boolean
+  transparent?: boolean
+}
+
 const AsBtnConsts = {
   btnType,
   btnVariant,
