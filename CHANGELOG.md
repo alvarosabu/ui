@@ -1,4 +1,10 @@
+# Changelog
 
+## [3.1.0](https://github.com/alvarosabu/ui/compare/3.0.0...3.1.0) (2025-01-15)
+
+### Features
+
+* update dependencies, remove ESLint config, and enhance playground components ([82b29c7](https://github.com/alvarosabu/ui/commit/82b29c7ad084efafc4460f784ede4d7ed11ea0d6))
 
 ## [3.0.0](https://github.com/alvarosabu/ui/compare/3.0.0-beta.3...3.0.0) (2024-08-22)
 
