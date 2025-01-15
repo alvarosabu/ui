@@ -3,9 +3,9 @@ import { computed } from 'vue'
 
 import { iconList } from '../as-icon'
 
-import { btnVariant } from './const'
-
 import AsButton from './AsButton.vue'
+
+import { btnVariant } from './const'
 
 const btnVariants = ['primary', 'secondary']
 

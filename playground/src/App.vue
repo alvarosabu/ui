@@ -1,12 +1,17 @@
 <script setup lang="ts">
-import { AsButton } from '@alvarosabu/ui'
-import Test from './components/Test.vue'
+import { AsButton, AsParticleLoader } from '@alvarosabu/ui'
 </script>
 
 <template>
-  <AsButton
-    label="Accept"
-    icon="github"
-  />
-  <Test msg="awiwi" />
+  <div class="grid container mx-auto gap-4 cols-5">
+    <div class="grid__item">
+      <AsButton
+        label="Accept"
+        icon="github"
+      />
+    </div>
+    <div class="grid__item">
+      <AsParticleLoader />
+    </div>
+  </div>
 </template>

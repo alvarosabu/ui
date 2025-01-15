@@ -91,10 +91,10 @@ $_precision: 10;
 }
 
 @function _to_unitless_rad($angle) {
-  @if unit($angle) == 'deg' {
+  @if math.unit($angle) == 'deg' {
     $angle: $angle / 180deg * $pi;
   }
-  @if unit($angle) == 'rad' {
+  @if math.unit($angle) == 'rad' {
     $angle: $angle / 1rad;
   }
   @return $angle;

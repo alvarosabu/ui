@@ -1,7 +1,7 @@
-import type { HighlighterGeneric } from 'shiki/core'
-import { createCssVariablesTheme } from 'shiki/core'
 import type { BundledLanguage, BundledTheme } from 'shiki'
+import type { HighlighterGeneric } from 'shiki/core'
 import { createHighlighter } from 'shiki'
+import { createCssVariablesTheme } from 'shiki/core'
 
 // Create a custom CSS variables theme, the following are the default values
 export const asShikiTheme = createCssVariablesTheme({

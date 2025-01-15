@@ -1,3 +1,5 @@
+import type { ConfigBase } from 'unocss'
+
 import {
   defineConfig,
   presetAttributify,
@@ -9,13 +11,11 @@ import {
   transformerVariantGroup,
 } from 'unocss'
 
-import type { ConfigBase } from 'unocss'
-
+import { fonts, icons, rules, shortcuts, theme, typography } from '.'
 /* import { imgAspectRatiosSafelist } from '../components/as-img/const' */
 import { btnSafelist } from '../components/as-button/const'
 import { iconSafelist } from '../components/as-icon/const'
 import { imgAspectRatiosSafelist } from '../components/as-img/const'
-import { fonts, icons, rules, shortcuts, theme, typography } from '.'
 
 /**
  * Configuration object for ASUno.

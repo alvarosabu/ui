@@ -1,17 +1,16 @@
-import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import { bgLightGreen, bold } from 'kolorist'
+import { resolve } from 'pathe'
 import Unocss from 'unocss/vite'
-import SvgLoader from 'vite-svg-loader'
-import dts from 'vite-plugin-dts'
+import { defineConfig } from 'vite'
 import banner from 'vite-plugin-banner'
 
-import { bgLightGreen, bold } from 'kolorist'
+import dts from 'vite-plugin-dts'
 
-import { resolve } from 'pathe'
+import SvgLoader from 'vite-svg-loader'
 
 import pkg from './package.json'
 
-// eslint-disable-next-line no-console
 console.log(`${bold(bgLightGreen(' AS - UI 🎨 '))} v${pkg.version}`)
 // https://vitejs.dev/config/
 export default defineConfig({

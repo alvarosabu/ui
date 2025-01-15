@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import 'uno.css'
 import AsParticleLoader from './AsParticleLoader.vue'
+import 'uno.css'
 
 function initState() {
   return {
