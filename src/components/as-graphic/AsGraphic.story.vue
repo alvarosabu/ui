@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import 'uno.css'
 import AsGraphic from './AsGraphic.vue'
 import { graphicType } from './const'
+import 'uno.css'
 
 function initState() {
   return {

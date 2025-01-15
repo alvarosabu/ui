@@ -1,7 +1,7 @@
 <script setup lang="ts">
+import type { ButtonProps } from './const'
 import { computed, toRefs } from 'vue'
 import AsIcon from '../as-icon/AsIcon.vue'
-import type { ButtonProps } from './const'
 import { btnSize } from './const'
 
 const props = withDefaults(defineProps<ButtonProps>(), {

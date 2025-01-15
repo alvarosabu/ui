@@ -1,11 +1,11 @@
-import Zigzags from '../../assets/svg/zigzags.svg'
-import Dots from '../../assets/svg/dots.svg'
+import Blob from '../../assets/svg/blob.svg'
 import Cross from '../../assets/svg/cross.svg'
-import Donut from '../../assets/svg/donut.svg'
-import Donut2x from '../../assets/svg/dots-2x.svg'
 import CurveBig from '../../assets/svg/curve-big.svg'
 import CurveSmall from '../../assets/svg/curve-small.svg'
-import Blob from '../../assets/svg/blob.svg'
+import Donut from '../../assets/svg/donut.svg'
+import Donut2x from '../../assets/svg/dots-2x.svg'
+import Dots from '../../assets/svg/dots.svg'
+import Zigzags from '../../assets/svg/zigzags.svg'
 
 export enum graphicType {
   ZIGZAG = 'zigzag',

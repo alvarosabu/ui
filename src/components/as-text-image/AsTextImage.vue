@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, toRefs } from 'vue'
-import AsImg from '../as-img/AsImg.vue'
 import AsGraphic from '../as-graphic/AsGraphic.vue'
+import AsImg from '../as-img/AsImg.vue'
 import { textImgDirection } from './const'
 
 export interface TextImageProps {
