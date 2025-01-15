@@ -27,7 +27,7 @@
       "import": "./dist/as-ui.js",
       "require": "./dist/as-ui.umd.cjs"
     },
-    "./styles": "./dist/style.css",
+    "./styles": "./dist/as-ui.css",
     "./*": "./*"
   },
   "main": "./dist/as-ui.umd.cjs",
